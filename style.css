@@ -1,0 +1,157 @@
+/* إعدادات عامة */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c0d1e, #c0282d);
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    position: relative;
+}
+
+label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    font-size: 12px;
+    color: #ddd;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    outline: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0c0b0b;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+/* تنسيق حقل كلمة المرور مع الأيقونة */
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+input[type="password"],
+input[type="text"] {
+    width: calc(100% - 30px);
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+.toggle-password:hover {
+    color: #333;
+}
+
+/* تنسيق العنوان مع الصورة */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 40px; /* حجم الشعار */
+    height: 40px;
+}
+
+button:hover {
+    background-color: #e299d4;
+    transform: scale(1.05);
+}
+
+.signup-link {
+    margin-top: 15px;
+    color: #ddd;
+}
+
+.signup-link a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup-link a:hover {
+    color: #4a90e2;
+}

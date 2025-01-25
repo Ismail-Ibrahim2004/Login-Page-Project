@@ -1,0 +1,15 @@
+body {
+    background-image: url('social-media-app-logo-instagram.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* تغيير لون النص حتى يكون مرئيًا على الخلفية */
+}
+
+h1, p {
+    color: #0a0a0a;
+    text-align: center;
+    margin-top: 20px;
+}
