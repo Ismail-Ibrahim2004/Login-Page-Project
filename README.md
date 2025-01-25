@@ -45,3 +45,4 @@ git clone [repository-link]
 - Implement a registration page for new users.
 - Add database integration to store and manage user credentials.
 - Make pages fully responsive to all devices.
+## link preview to project [https://ismail-ibrahim2004.github.io/Login-Page-Project/]
